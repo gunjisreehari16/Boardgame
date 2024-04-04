@@ -81,13 +81,13 @@
 	<repository>
 		<id>nexus</id>
 		<name>Sreehari Relases Nexus Repo</name>
-		<url>http://43.205.144.31:8081/repository/maven-releases/</url>
+		<url>http://52.66.66.227:8081/repository/maven-releases/</url>
 	</repository>
 	
 	<snapshotRepository>
 		<id>nexus</id>
 		<name>Sreehari Snapshots Nexus Repo</name>
-		<url>http://43.205.144.31:8081/repository/maven-snapshots/</url>
+		<url>http://52.66.66.227:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>	  
 </distributionManagement>
 	<build>
