@@ -77,8 +77,21 @@
     <version>0.8.7</version>
 </dependency>
 	</dependencies>
-
+<distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<name>Sreehari Relases Nexus Repo</name>
+		<url>http://65.2.177.226:8081/repository/maven-releases/</url>
+	</repository>
+	
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Sreehari Snapshots Nexus Repo</name>
+		<url>http://65.2.177.226:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>	  
+</distributionManagement>
 	<build>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
